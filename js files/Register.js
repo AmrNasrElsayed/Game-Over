@@ -55,5 +55,5 @@ Age.addEventListener('keyup',function () {
 
 
 btn.addEventListener('click' , function(){
-  window.location.href = "../html files/login.html";
+  window.location.href = "login.html";
 })

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css files/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css files/main.css" />
+  </head>
+  <body>
+      <div class="container d-flex reg ">
+        <div class="backBg w-50">
+        </div>
+        <div class="w-75 regBox p-3">
+          <div class="text-center">
+            <img src="../images/logo-sm.png" alt="" />
+            <h2>Register To Game over</h2>
+          </div>
+          <div class="row g-3 p-5">
+           
+            <div class="col-12">
+              <input
+                id="emailAddress2"
+                type="email"
+                class="form-control"
+                placeholder="Email address"
+              />
+              <ul id="E2ul" class="alert alert-danger py-0 d-none">
+                <li>Email address Required</li>
+                <li>InValid Email Formate</li>
+              </ul>
+            </div>
+            <div class="col-12">
+              <input
+                id="password2"
+                type="password"
+                class="form-control"
+                placeholder="Password"
+              />
+              <ul id="P2ul" class="alert alert-danger py-0 d-none">
+                <li>Password Required</li>
+                <li>
+                  Minimum eight characters, at least one letter and one number
+                </li>
+              </ul>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-outline-dark w-100 text-white">
+                Login
+              </button>
+            </div>
+                      <div class="col-12"><p class="text-center small text-white">Not a member yet? <a class="text-decoration-none" href="./register.html">Create Account <i class="fa-solid fa-angle-right"></i></a></p></div>
+                      <div class="col-12 text-center mt-0 contactUs">
+            <a href="mailto:nasramr778@gmail.com"> Contact Us <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+   
+
+    <script src="./js files/bootstrap.bundle.min.js"></script>
+    <script src="./js files/login.js"></script>
+  </body>
+</html>
