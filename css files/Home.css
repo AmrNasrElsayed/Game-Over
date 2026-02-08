@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Exile&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+   font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+     background-color: #272B30;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+   font-size: small;
+   background-color: transparent;
+}
+.navbar img{
+   width: 30px;
+}
+
+.navbar a{
+   color: white;
+   transition: all .5s .1s ease-in;
+}
+
+.navbar a:hover{
+   color: aqua;
+}
+
+
+.card{
+   background-color:#272B30 ;
+   transition: all .5s .1s ease-in;
+   cursor: pointer;
+}
+
+.card p{
+color: #919496;
+}
+.card p ,footer ,h6 {
+   font-size: 12px;
+
+}
+.card h6{
+   color: white;
+}
+
+.card:hover{
+   transform: scale(1.02);
+}
+.card:hover img{
+opacity: 1;
+}
+
+.card footer{
+   margin-top: auto;
+}
+
+
+.card img{
+   height: 150px;
+   opacity: 0.8;
+   transition: all .4s .1s ease-in;
+}
+.badge{
+      font-size: 9px;
+      height: fit-content;
+}
+
+
+.h4M{
+   margin-left: 85px;
+}
+
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}

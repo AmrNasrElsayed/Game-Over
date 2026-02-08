@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Exile&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+   font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+   background-color: #272B30;
+}
+
+
+
+.regBox{
+    background-color: #3D4145;
+    color: white;
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    
+}
+.backBg{
+    background-image: url(../images/register.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 1%;
+
+    
+}
+
+.reg{
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color:black ;
+    transition: all .4s .1s ease-in;
+}
+
+.contactUs a{
+    color:gray ;
+}
+
+.contactUs a:hover{
+    color:black ;
+    transition: all .4s .1s ease-in;
+}
+
+
+
+
