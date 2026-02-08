@@ -1,7 +1,7 @@
 
 let gamesData=[];
 async function getGames(category) { 
-   const apiResponse = await fetch(`https://corsproxy.io/?https://www.freetogame.com/api/games?category=${category}`);
+   const apiResponse = await fetch(`https://www.freetogame.com/api/games?category=${category}`);
    const data = await apiResponse.json();
    gamesData = data;
    displayData()
